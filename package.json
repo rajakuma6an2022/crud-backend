@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "cors": "^2",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "typescript": "^5"
+  }
+}
