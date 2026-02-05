@@ -4,10 +4,13 @@ import cors from "cors"
 const app = express()
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL,
+    origin: [
+      "http://localhost:5173",     // local frontend
+      "https://your-frontend.onrender.com" // render frontend url
+    ],
     credentials: true
   })
-)
+);
 app.use(express.json())
 
 let users:any[]=[]
