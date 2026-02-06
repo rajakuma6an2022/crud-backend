@@ -5,8 +5,8 @@ const app = express()
 app.use(
   cors({
     origin: [
-      "http://localhost:5173",     // local frontend
-      "https://your-frontend.onrender.com" // render frontend url
+      "http://localhost:5173", 
+      "https://react-user-crud-tawny.vercel.app/"
     ],
     credentials: true
   })
