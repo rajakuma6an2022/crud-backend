@@ -6,7 +6,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173", 
-      "https://react-user-crud-tawny.vercel.app/"
+      "https://react-user-crud-tawny.vercel.app"
     ],
     credentials: true
   })
